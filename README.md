@@ -1,21 +1,34 @@
-# Exploratory Data Analysis
+# Machine Learning
 
 ## Introduction
-Massive Open Online Courses (MOOCs) are free online courses available for anyone to enroll. MOOCs have
-dramatically changed the way the world learns by providing an affordable and flexible way to learn new
-skills, help in career advancements etc. There is a very vast amount of data produced by e-learning systems
-and the measurement, collection, analysis and reporting of this data about learners can help a business a lot
-in optimizing learning experience and the environment in which it occurs
-This project is about extracting insights from learners' data provided by an online course provider Future
-Learn for a cyber security course.
+From a report from the CDC motor vehicle safety division, one in five car accidents is caused by a distracted driver.
+This has just become like drunken driving. Almost 425,000 people injured and 3,000 people killed by distracted driving every year.
+This project is about building a model for a multi class classification, so that drivers can be categorised and predicted on the basis of their behaviour.
+The 10 classes to be predicted are:
+c0: safe driving
+c1: texting - right
+c2: talking on the phone - right
+c3: texting - left
+c4: talking on the phone - left
+c5: operating the radio
+c6: drinking
+c7: reaching behind
+c8: hair and makeup
+c9: talking to passenger
 
 ## Objective
 
-1. Our first objective for this project is targeting the serious learners, and audience and increasing the
-retention of the student for the course.
+We are aiming to improve the alarming statistics caused by the distracted driving, by testing whether dashboard cameras can automatically detect drivers engaging in distracted behaviors.
+State Farm insurance company has given us a dataset of 2D dashboard camera images, and we need to develop an algorithm to detect and classify driver's behaviour and check if they are driving attentively or not.
+We will be implementing deep learning arhitecture to create models and predict and classify them by training them on the given datset.
 
-2. We want to focus on optimizing the user experience and learning environment and enhancing the
-learning experience
+## Loading the data
+1. Downloading the data from kaggle into colab using curlwget web extension for faster downloads and uploads
+2. First we will go to kaggle state farm competition page. The link : https://www.kaggle.com/c/state-farm-distracted-driver-detection/data
+3. Then in the data section of the question, we will click the 'download all' tab to download all the data. After that when it asks for a place to download, we will cancel it and will go curlwget extension
+and will copy the link that will be geneated in wget dialog box.
+4. We will paste this link with a exclamation mark sign ! at the start and will run this.
+
 
 ## Step of Execution
 1. Download the project by clicking [this link](https://github.com/JyotsnaVerma19/CSC8631_EDA_DM) and place all the data files in ./data/ directory or  unzip the project folder attached.
@@ -25,7 +38,7 @@ learning experience
 Open ./reports/Reports.rmd and run all the chunks by clicking on Run > Run All button in Rstudio.
 To generate the pdf report click on knit or knit to pdf.
 
-## Accessing Critical reflection Report
+## Accessing Structured Abstract Report
 Go to ./reports/ folder and find the Critical_Reflection_Report.pdf
 
 ## Note : 
