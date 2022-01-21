@@ -1,4 +1,4 @@
-# Machine Learning
+# Distracted Driver Detection
 
 ## Introduction
 From a report from the CDC motor vehicle safety division, one in five car accidents is caused by a distracted driver.
@@ -25,7 +25,7 @@ We will be implementing deep learning arhitecture to create models and predict a
 ## Loading the data
 1. Downloading the data from kaggle into colab using curlwget web extension for faster downloads and uploads
 2. First we will go to kaggle state farm competition page. The link : https://www.kaggle.com/c/state-farm-distracted-driver-detection/data
-3. Then in the data section of the problem statement we will click the 'download all' tab to download all the data. After that when it asks for a place to download, we will cancel it and will go curlwget extension
+3. Then in the data section of the problem statement we will click the 'download all' tab to download all the data. After that when it asks for a place to download, we will cancel it and will go curlwget browser extension
 and will copy the link that will be geneated in wget dialog box.
 4. We will paste this link with a exclamation mark sign ! at the start and will run this.
 
@@ -37,6 +37,7 @@ and will copy the link that will be geneated in wget dialog box.
 
 ## Reports
 1. STRUCTURED_ABSTRACT_CSC8635.pdf : This is the structured abstract file containing context, objective, method, results, novelty and key images.
+2. CSC8635_C210431782_distracted_driver_detection.pdf : This file contains the detailed report of project. This file was generated using jupyter notebook and its extension.
 
 ## Note : 
 This project runs fine on Windows operating system. (Haven't checked on other OS)
