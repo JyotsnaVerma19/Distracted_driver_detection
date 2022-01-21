@@ -1,7 +1,7 @@
-# Distracted Driver Detection
+# Machine Learning
 
 ## Introduction
-From a report from the CDC motor vehicle safety division, one in five car accidents is caused by a distracted driver.
+From a report by the CDC motor vehicle safety division, one in five car accidents is caused by a distracted driver.
 This has just become like drunken driving. Almost 425,000 people injured and 3,000 people killed by distracted driving every year.
 This project is about building a model for a multi class classification, so that drivers can be categorised and predicted on the basis of their behaviour.
 The 10 classes to be predicted are:
@@ -25,7 +25,7 @@ We will be implementing deep learning arhitecture to create models and predict a
 ## Loading the data
 1. Downloading the data from kaggle into colab using curlwget web extension for faster downloads and uploads
 2. First we will go to kaggle state farm competition page. The link : https://www.kaggle.com/c/state-farm-distracted-driver-detection/data
-3. Then in the data section of the problem statement we will click the 'download all' tab to download all the data. After that when it asks for a place to download, we will cancel it and will go curlwget browser extension
+3. Then in the data section of the problem statement we will click the 'download all' tab to download all the data. After that when it asks for a place to download, we will cancel it and will go curlwget extension
 and will copy the link that will be geneated in wget dialog box.
 4. We will paste this link with a exclamation mark sign ! at the start and will run this.
 
@@ -35,9 +35,12 @@ and will copy the link that will be geneated in wget dialog box.
 2. Open jupyter notebook in project directory or open the ipython notebook in google colab and load the data by the steps mentioned in section "Loading the data".
 3. And click run all under Runtime section on the navigation bar (the run time might be long as the training of the model takes time). 
 
+## Loading data for predicting test images
+1. We will create a folder in the ./imgs directory and we will create one more sub directory in that folder and we will place all the test images in that folder and give that path to image data generator.
+For ex- ./imgs/test_imgs/pred_imgs, image data generator will take directory as ./imgs/test_imgs and glob command will look something like this : imgs_path = glob.iglob('/content/imgs/test_imgs/pred_imgs/*.jpg')
+
 ## Reports
 1. STRUCTURED_ABSTRACT_CSC8635.pdf : This is the structured abstract file containing context, objective, method, results, novelty and key images.
-2. CSC8635_C210431782_distracted_driver_detection.pdf : This file contains the detailed report of project. This file was generated using jupyter notebook and its extension.
 
 ## Note : 
 This project runs fine on Windows operating system. (Haven't checked on other OS)

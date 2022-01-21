@@ -1,0 +1,77 @@
+commit 137a7666fbde365127b8321616b4f45f4dcb664d
+Author: JyotsnaVerma19 <19payal.verma@gmail.com>
+Date:   Fri Jan 21 12:50:39 2022 +0000
+
+    Final Commit
+
+commit dfb8cc6a6e6c2e28bf87427eec90df71e79d3423
+Author: JyotsnaVerma19 <19payal.verma@gmail.com>
+Date:   Fri Jan 21 12:44:58 2022 +0000
+
+    Added final report and structured Abstract
+
+commit b41df76c61a11030abccd21016e0bd8ef9e7689c
+Author: JyotsnaVerma19 <19payal.verma@gmail.com>
+Date:   Fri Jan 21 12:18:54 2022 +0000
+
+    finalising the code file
+
+commit 2ee661a78cdc0a94dd15e2a121dd3eb23a8ad126
+Author: JyotsnaVerma19 <19payal.verma@gmail.com>
+Date:   Fri Jan 21 12:00:51 2022 +0000
+
+    Added steps of execution in RMD file
+
+commit 5747e0d7c6ce33955f50833507359b54dd651f2e
+Author: JyotsnaVerma19 <19payal.verma@gmail.com>
+Date:   Fri Jan 21 11:01:21 2022 +0000
+
+     Preparing the RMD file
+
+commit 5ba154c5fa92dac1ce5e9daf90860c0d019d432d
+Author: JyotsnaVerma19 <19payal.verma@gmail.com>
+Date:   Tue Jan 18 10:45:28 2022 +0000
+
+    Finalising the structured Abstract Report
+
+commit 575af11b88065749541a0ced0cad54532afbeb0b
+Author: JyotsnaVerma19 <19payal.verma@gmail.com>
+Date:   Fri Jan 14 18:13:47 2022 +0000
+
+    finalising the report
+
+commit 318ae933b5fdc580a4fe28135a013a7ec38e42fd
+Author: JyotsnaVerma19 <19payal.verma@gmail.com>
+Date:   Fri Jan 14 15:16:34 2022 +0000
+
+    finalising the model and calculating the test accuracy
+
+commit de1b1a7164f77aed7274caaabad24c4bdce214e1
+Author: JyotsnaVerma19 <19payal.verma@gmail.com>
+Date:   Wed Jan 12 12:19:32 2022 +0000
+
+    Training CNN with tranfer learning- inception V3
+
+commit 9d0c44b05501221103aee0a934ba3ad1fe1c7ea4
+Author: JyotsnaVerma19 <19payal.verma@gmail.com>
+Date:   Wed Jan 12 10:39:24 2022 +0000
+
+    Training CNN with transfer learning
+
+commit 38b6537d1ab21e69837d837bfb74667d45c6693a
+Author: JyotsnaVerma19 <19payal.verma@gmail.com>
+Date:   Tue Jan 11 00:54:52 2022 +0000
+
+    Training the CNN model built from scratch
+
+commit 266a3a318db1cde8a257e28c42bd351589539705
+Author: JyotsnaVerma19 <19payal.verma@gmail.com>
+Date:   Tue Jan 11 00:37:48 2022 +0000
+
+    First sequential model
+
+commit 6bea4fc7aeae5aae26ef3f5ca9532f408d9f788c
+Author: JyotsnaVerma19 <19payal.verma@gmail.com>
+Date:   Mon Jan 10 23:42:23 2022 +0000
+
+    Business Understanding
