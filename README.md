@@ -25,21 +25,18 @@ We will be implementing deep learning arhitecture to create models and predict a
 ## Loading the data
 1. Downloading the data from kaggle into colab using curlwget web extension for faster downloads and uploads
 2. First we will go to kaggle state farm competition page. The link : https://www.kaggle.com/c/state-farm-distracted-driver-detection/data
-3. Then in the data section of the question, we will click the 'download all' tab to download all the data. After that when it asks for a place to download, we will cancel it and will go curlwget extension
+3. Then in the data section of the problem statement we will click the 'download all' tab to download all the data. After that when it asks for a place to download, we will cancel it and will go curlwget extension
 and will copy the link that will be geneated in wget dialog box.
 4. We will paste this link with a exclamation mark sign ! at the start and will run this.
 
 
 ## Step of Execution
-1. Download the project by clicking [this link](https://github.com/JyotsnaVerma19/CSC8631_EDA_DM) and place all the data files in ./data/ directory or  unzip the project folder attached.
-* If downloading from Git, make data and cache directory in the project folder.
-2. Open RStudio
-3. Set working directory by using the command setwd("path/where/you/downloaded/the/project/file") or you can simply click on sessions tab present in the top menu bar then go to set working directory then choose directory (Session > Set Working Directory > Choose directory).
-Open ./reports/Reports.rmd and run all the chunks by clicking on Run > Run All button in Rstudio.
-To generate the pdf report click on knit or knit to pdf.
+1. Download the project by clicking [this link](https://github.com/JyotsnaVerma19/Distracted_driver_detection) and place all the data files in ./data/ directory or  unzip the project folder attached.
+2. Open jupyter notebook in project directory or open the ipython notebook in google colab and load the data by the steps mentioned in section "Loading the data".
+3. And click run all under Runtime section on the navigation bar (the run time might be long as the training of the model takes time). 
 
-## Accessing Structured Abstract Report
-Go to ./reports/ folder and find the Critical_Reflection_Report.pdf
+## Reports
+1. STRUCTURED_ABSTRACT_CSC8635.pdf : This is the structured abstract file containing context, objective, method, results, novelty and key images.
 
 ## Note : 
 This project runs fine on Windows operating system. (Haven't checked on other OS)
